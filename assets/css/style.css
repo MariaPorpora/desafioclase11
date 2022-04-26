@@ -4,64 +4,21 @@
 }
 
 
-/*DISEÑO DE GRILLA PARA MOBIL*/
-.contenedor{
-    display: grid;
-    gap: 5px;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 100px auto auto 100px;
-  
-}
-
-body{
-    width: 100%;
-}
-
-.encabezado{
-    grid-column: 2/4;
-    grid-row: 1/2;
+.logo1{
+    width: 200px;
+    height: 250px;
 
 }
 
-.logo{
-    width: 80px;
-    height: 80px;
-    margin: 10px;
-}
-
-.nav{
-    grid-column:1/2 ;
-    grid-row: 1/2;
-    display: flex
-      
-}
-
-.nav ul{
-    list-style: none;
-
-}
-
-.nav ul li{
-    font-size: 10px;
-    display: flex;
-    color: black;
-
-}
 
 @font-face {
-    font-family: Huracan;
-    src: url("/assets/fonts/Hurricane-Regular.ttf");
+    font-family: Moon;
+    src: url("../fonts/BerkshireSwash-Regular.ttf");
 }
 
 
 a{
-    font-style:normal;
-    font-weight: 300;
-    font-size: 14px;
-    font-family: "Huracan";
-    text-align: center;
-    text-decoration: none;
-    color: black;
+  font-family: moon;
 }
     /*NO PUDE PONER EL CARRITO ARRIBA A LA DERECHA*/
 
