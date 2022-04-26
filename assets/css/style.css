@@ -24,6 +24,7 @@
 
 a{
   font-family: moon;
+
 }
 
 .texto{
@@ -64,7 +65,7 @@ h5{
 .publicidad{
     grid-column: 1/4;
     grid-row: 3/4;
-    background-color: rgba(199, 150, 221, 0.224);
+    background-color:#C4C7F2;
     display: flex;
     justify-content: center;
   
@@ -93,18 +94,21 @@ h5{
 .pie{
     grid-column: 1/4;
     grid-row: 4/5;
-    background-color: rgba(4, 128, 130, 0.336);
+    background-color:#011C26;
 
 }
 
 .TextoPie{
     text-align-last: center;
     margin: 10px;
-    font-size: 15px;
+    padding: 10px;
+    font-size: 10px;
+    color:#EF816C;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h2{
-      font-family: "Huracan";
+      font-family: "Moon";
 }
 
 
