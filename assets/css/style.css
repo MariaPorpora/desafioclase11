@@ -3,7 +3,12 @@
     padding: 0;
 }
 
-
+:root{
+    --color1: #EF816C;
+    --color2: #C4C7F2;
+    --color3: #011C26;
+    --color4: #ffffff;
+}
 .logo1{
     width: 200px;
     height: 250px;
@@ -82,23 +87,8 @@ h5{
     font-family: moon;
 }
 
-.producto__img{
-    width: 10px;
-    height: 20px;
-    display: flex;
-    justify-items: center;
-}
 
-.descripcion{ 
-    font-size: 10px;
-}
 
-.btn{
-    display: flex;
-    font-size: 10px;
-    padding: 5px;
-    margin: 10px;
-}
 
 .pie{
     grid-column: 1/4;
