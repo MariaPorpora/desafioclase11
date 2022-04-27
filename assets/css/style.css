@@ -135,21 +135,24 @@ h2{
     color:#011C26;
     font-family: "moon";
     margin: 20px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
         }
-
-
-
    
 .PieDeContactos{
  color:#EF816C;
  background-color: #011C26;
-
 }
 
+button{
+    box-shadow: 7px 4px 21px 0px rgba(0,0,0,0.81);
+    width: 90px;
+}
 
-
+button:hover {
+    box-shadow:7px 4px 14px 6px rgba(239,129,108,0.81);
+    width: 90px;
+}
 
 /*--------------------------CSS DE PRODUCTOS-----------------------------------------*/
 
