@@ -18,71 +18,58 @@
 
 <h1 class="TituloContactos">Para recibir informacion completar el siguiente formulario:</h1>
 
-    <div>
-            <form action=" archivo.php"  method="get">
-                <label for="name">Ingrese su nombre y apellido</label>
-                <input class="nombre" type="text" placeholder="nombre y apellido"  name="nombreyapellido">
+ 
 
-    </div>
-            <br>
-            <br>
-    <div>
-                <label for="direccion">Ingrese su correo</label>
-                <input class="correo"  type="email"  placeholder="correo electrónico"  name="correo">
-    </div>
-            <br>
-            <br>
-    <div>
-
-                <label for="consulta">Por favor dejenos saber que talleres o terapias le interesan:</label>
-                <textarea name="consulta"></textarea>
-    </div>            
-            <br>
-            <br>
-    <div>
-        <label for="sexo">Mujer</label>
-         <input type="radio" name="sexo" value="mujer">
-         <label for="sexo">Hombre</label>
-         <input type="radio" name="sexo" value="hombre">
-         <label for="sexo">No Binario</label>
-         <input type="radio" name="sexo" value="NoBinario">
-    </div>     
-            <br>
-            <br>
-
-         <label for="tyc">Acepto recibir informacion a mi correo</label>
-         <input type="checkbox" name="tyc" value="acepto">
-
-    <div>
-         <label for="pregunta">Ha realizado alguna actividad holistica?</label>
-         <select name="talle">
-             <option value="s">diariamente</option>
-             <option value="m">esporadicamente</option>
-             <option value="l">nunca</option>
-
-         </select>
-
-    </div>
-            <br>
-            <br>
-
-        <input type="submit"  value="enviar informacion">
-        <input type="reset" value="Limpiar formulario">
-        
-
-         </form>
-
-    </nav>
+   
 
     <main class="ImgContactos">
         <img src="../assets/img/Contactos.png" alt="Formulario">
     </main>
 
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Nombre y apellido</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div>
+            <label for="sexo">Mujer</label>
+             <input type="radio" name="sexo" value="mujer">
+             <label for="sexo">Hombre</label>
+             <input type="radio" name="sexo" value="hombre">
+             <label for="sexo">No Binario</label>
+             <input type="radio" name="sexo" value="NoBinario">
+        </div> 
+        <div>
 
-    <br>
-    <br>
-    <br>
+            <label for="consulta">Por favor dejenos saber que talleres o terapias le interesan:</label>
+            <textarea name="consulta"></textarea>
 
+        </div>      
+        
+    <div>
+        <label for="pregunta">Ha realizado alguna actividad holistica?</label>
+        <select name="talle">
+            <option value="s">diariamente</option>
+            <option value="m">esporadicamente</option>
+            <option value="l">nunca</option>
+
+        </select>
+
+   </div>
+
+
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Acepto recibir información a mi correo</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+    </nav>
 
 
     <footer id="PieDeContactos"><!-- Pie de pagina -->

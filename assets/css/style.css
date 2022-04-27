@@ -116,7 +116,7 @@ h2{
 /*--------------------CSS CONTACTOS-----------------------------------------------*/
 
 .ContenedorContactos{
-    background-color: rgba(168, 43, 226, 0.224);
+    background-color:#ffffff;
     display: grid;
     gap: 5px;
     align-content: center;
